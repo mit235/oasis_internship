@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#8d816e95,#ffffff,#36423195);
+}
+
+.calstyle{
+ width: 350px;
+ background: #d42626; 
+ border-radius: 20px;  
+}
+
+input[type="text"]{
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid #e1e7ea;
+    color : black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#d1dce0,#dfe6e9);  
+}
+
+form .buttons{
+    width: 300px;
+    margin: 10px 25px 0px 25px;
+    padding: 10px 0;
+}
+
+input[type="button"]{
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    border-radius: 9px;
+    line-height: 55px;
+    border: 3px solid #d9d9d9;
+    background: linear-gradient(#e1b274 ,#ccd390, #66744f);
+}
+
+input[type="button"]:hover{
+    transition: 0.5s;
+    background: linear-gradient(#b9aaaa ,#ae9494, #f0d3d3);
+    cursor: pointer;
+}
+
+input#clearAll{
+    background: #ff0000;
+    border: 1px solid #cc0000;
+    color: white;
+}
+
+input#clearAll:hover{
+    transition: 0.5s;
+    background: #ffffff;
+    border: 1px solid #ff0303;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+input#answer{
+    width :275px;
+    margin: 10px 0px 10px 0px;
+    font-size: 30px;
+    color:#ffffff;
+    border: 1px solid #ff6e42;
+    background: #ff6e42;
+}
+
+input#answer:hover{
+    transition: 0.2s;
+    background: white;
+    border: 1px solid #ff6e42;
+    color: #ff6e42;
+    cursor: pointer;
+}
+
